@@ -69,10 +69,10 @@ The design should also reasonably actually work\! Of course, you can’t be sure
 
 #### Your GitHub repository needs to contain all your project files
 
-- A BOM (Bill of Materials) in CSV format, with links, and a line indicating the total cost\! Even if you own a part, still include it. Someone else needs to be able to build what you’ve designed
+- A BOM (Bill of Materials) in CSV format, with links, and a line indicating the total cost in the root of your repo\! Even if you own a part, still include it. Someone else needs to be able to build what you’ve designed
 - The source files of your PCB, if you have one (`.kicad_pro`, `.kicad_sch`, `.kicad_pcb`, `.epro`, `gerbers.zip`, etc)
 - If you have 3D models, `.step` files of your project’s 3D CAD and the source design file (`.f3d`, `FCStd`, or a link to onshape)
-- Your firmware files, if applicable. Make sure to include the source code
+- Your firmware files, if applicable. Make sure to include the source code and binaries
 - ANY other files that are part of your project (libraries, references, etc.)
 - Make sure your repository is well organized. Use and name folders and files clearly
 
